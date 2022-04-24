@@ -75,6 +75,7 @@ h1, h2, .title{
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 20px;
+  padding-bottom: 20px;
 }
 
 .button:hover {
@@ -219,6 +220,7 @@ nav {
 @media only screen and (max-width : 768px) {
   .container {
     max-width: 768px;
+	  					
   }
 }
 
@@ -298,8 +300,14 @@ footer a {
 #spotify {
   height: 50px;
   text-align: center;
+  height: auto;
   padding: 50px 50px;
 }
+
+@media only screen and (max-width : 768px) {
+	.container {
+	font-size: 0.5rem;
+		
 
 
 /*CATEGORY(BOOKS)*/
