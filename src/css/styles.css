@@ -278,7 +278,6 @@ footer a {
   margin: auto auto 10px auto;
   align-items: center;
   text-align: center;
-  
 }
 
 .flex-container img {
@@ -291,6 +290,7 @@ footer a {
   text-align: center;
   padding-bottom: 20px;
 }
+
 #title h2{
   font-size: 50px;
   color: var(--primary-color);
@@ -302,7 +302,6 @@ footer a {
   background: white;
 }
 
-
 #spotify {
   height: 50px;
   text-align: center;
@@ -311,7 +310,8 @@ footer a {
 
 @media only screen and (max-width : 768px) {
   #spotify {
-	  height: 100px;
+	  height: 200px;
+	  padding-bottom: 50px;
 	}
 }
 
