@@ -313,9 +313,8 @@ footer a {
     height: 200px;
     padding-bottom: 30px;
    }
-   .button {
-   padding-bottom: 10px;
-   }
+   div p {
+	   font-size: 0.5 rem;
 }
 
 
@@ -325,7 +324,7 @@ width: 100%;
   color: var(--body-color);
   border-radius: 20px;
   background-color: var(--secondary-color);
-	margin-bottom: 2rem;
+  margin-bottom: 2rem;
   padding: 1.1rem 1.8rem 1.8rem 1.5rem;
   text-align: justify;
 }
