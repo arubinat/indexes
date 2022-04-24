@@ -296,7 +296,6 @@ footer a {
   color: var(--primary-color);
 }
 
-
 #content {
   height: auto;
   padding: 60px;
@@ -308,6 +307,12 @@ footer a {
   height: 50px;
   text-align: center;
   padding: 50px 50px;
+}
+
+@media only screen and (max-width : 768px) {
+  #spotify {
+	  height: 100px;
+	}
 }
 
 
