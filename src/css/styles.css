@@ -28,7 +28,6 @@ body {
   background-color: var(--body-color);
 }
 
-
 a {
   color: var(--primary-color);
   text-decoration: none;
@@ -75,7 +74,6 @@ h1, h2, .title{
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 20px;
-  padding-bottom: 20px;
 }
 
 .button:hover {
@@ -220,7 +218,16 @@ nav {
 @media only screen and (max-width : 768px) {
   .container {
     max-width: 768px;
-	  					
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1300px;
   }
 }
 
@@ -300,16 +307,8 @@ footer a {
 #spotify {
   height: 50px;
   text-align: center;
-  height: auto;
   padding: 50px 50px;
 }
-
-@media only screen and (max-width : 768px) {
-	.container {
-	font-size: 0.5rem;
-	}
-}
-		
 
 
 /*CATEGORY(BOOKS)*/
@@ -446,3 +445,4 @@ img {
   margin-left: 35px;
   list-style-type: square;
 }
+
