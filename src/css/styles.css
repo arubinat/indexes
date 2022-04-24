@@ -160,7 +160,7 @@ nav {
   
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   header {
     height: 60px;
   }
@@ -215,7 +215,7 @@ nav {
   padding-left: 15px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   .container {
     max-width: 768px;
   }
@@ -238,7 +238,7 @@ footer a {
   color: var(--body-color);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   footer {
     text-align: center;
     margin-top: 20px;
@@ -331,7 +331,7 @@ width: 100%;
   margin-right: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   .box {
     width: 100%;
     font-size: 0.9rem;
