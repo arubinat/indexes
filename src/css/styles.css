@@ -310,9 +310,12 @@ footer a {
 
 @media only screen and (max-width : 768px) {
   #spotify {
-	  height: 200px;
-	  padding-bottom: 50px;
-	}
+    height: 200px;
+    padding-bottom: 30px;
+   }
+   .button {
+   padding-bottom: 10px;
+   }
 }
 
 
